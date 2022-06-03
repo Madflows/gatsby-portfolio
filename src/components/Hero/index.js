@@ -20,8 +20,8 @@ const Hero = () => {
                 </div>
             </Styled.Statement>
             <div className="container">
-                <Styled.Bio>I’m <Link to="/info">Aaron</Link> – a Brooklyn-based product designer with over a decade of experience working on behalf of journalists, artists, and makers.</Styled.Bio>
-                <Styled.Bio>Creative people make me <em><JiggleText>happy</JiggleText></em>.</Styled.Bio>
+                <Styled.Bio>I’m <Link to="/info">Folarin</Link> – a Lagos-based Frontend Developer with over a decade of experience working on behalf of journalists, artists, and makers.</Styled.Bio>
+                <Styled.Bio>Perfect Codes makes me <em><JiggleText>happy</JiggleText></em>.</Styled.Bio>
             </div>
         </Styled.Wrapper>
     )
