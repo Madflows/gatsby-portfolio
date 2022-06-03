@@ -1,8 +1,8 @@
 module.exports = {
     siteMetadata: {
         siteUrl: "https://aaron.mn",
-        title: "Aaron Shapiro",
-        description: `Aaron Shapiro is a product designer living in Brooklyn, New York.`
+        title: "Folarin Lawal",
+        description: `Folarin Lawal is a product designer living in Brooklyn, New York.`
     },
     plugins: [
         "gatsby-plugin-image",

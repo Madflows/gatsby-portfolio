@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 
 const Head = (props) => {
 
-    const title = `${props.title} — Aaron Shapiro`
+    const title = `${props.title} — Folarin Lawal`
 
     return (
 
@@ -14,7 +14,7 @@ const Head = (props) => {
 
             <meta charset="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-            <meta name="author" content="Aaron Shapiro" />
+            <meta name="author" content="Folarin Lawal" />
             <meta name="description" content={props.description} />
 
             <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -25,7 +25,7 @@ const Head = (props) => {
             <meta name="twitter:title" content={title} />
             <meta name="twitter:description" content={props.description} />
             <meta name="twitter:image" content="http://www.aaron.mn/social_card.png" />
-            <meta name="twitter:image:alt" content="Aaron Shapiro's website logo" />
+            <meta name="twitter:image:alt" content="Folarin Lawal's website logo" />
 
             <meta property="og:title" content={title} />
             <meta property="og:description" content={props.description} />
@@ -39,8 +39,8 @@ const Head = (props) => {
 }
 
 Head.defaultProps = {
-    title: "Aaron Shapiro",
-    description: "Aaron Shapiro is a product designer in Brooklyn, New York.",
+    title: "Folarin Lawal",
+    description: "Folarin Lawal is a product designer in Brooklyn, New York.",
     lang: `en`,
 }
 
