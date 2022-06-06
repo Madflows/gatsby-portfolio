@@ -6,17 +6,17 @@ const InfoIntro = () => {
     return (
         <Styled.Wrapper>
             <Styled.ImageWrapper>
-                <StaticImage
+                {/* <StaticImage
                     src="../../images/info.jpg"
-                    alt="Tue author"
+                    alt="The author"
                     placeholder="none"
                     layout="constrained"
                     quality="90"
-                />
+                /> */}
             </Styled.ImageWrapper>
             <Styled.Content>
                 <div className="container">
-                    <Styled.PageTitle>Info</Styled.PageTitle>
+                    <Styled.PageTitle>Sup!</Styled.PageTitle>
                     <Styled.Greeting>Nice to<br />meet you.</Styled.Greeting>
                 </div>
             </Styled.Content>
