@@ -9,9 +9,9 @@ const Footer = () => {
                     <h3>
                         <em>Thanks for visiting.</em>
                     </h3>
-                    <h3>I'm not currently looking for freelance or full-time work, but feel free to say hi.</h3>
+                    <h3>I'm currently looking for freelance or full-time work, feel free to say hi.</h3>
                     <h3>
-                        <a className="inverted" href="mailto:aaron@aaron.mn">aaron@aaron.mn</a>
+                        <a className="inverted" href="mailto:lawalfolarin6@gmail.com">lawalfolarin6@gmail.com</a>
                     </h3>
                 </div>
             </Styled.PrimaryWrapper>
@@ -22,9 +22,8 @@ const Footer = () => {
                             © {new Date().getFullYear()}
                         </h3>
                         <Styled.Links>
-                            <a className="inverted" href="https://twitter.com/aaronshapiro">Twitter</a>
-                            <a className="inverted" href="https://twitch.tv/okayaaron">Twitch</a>
-                            <a className="inverted" href="https://github.com/aarshap/">GitHub</a>
+                            <a className="inverted" target="_blank" href="https://twitter.com/madflows_">Twitter</a>
+                            <a className="inverted" target="_blank" href="https://github.com/madflows/">GitHub</a>
                         </Styled.Links>
                     </Styled.SecondaryInner>
                 </div>

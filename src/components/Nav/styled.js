@@ -29,6 +29,7 @@ export const Path = styled.path`
     fill: ${props => props.theme.color.text.normal};
     fill-rule: evenodd;
     clip-rule: evenodd;
+    stroke-width: 0.4mm;
 `
 
 export const Circle = styled.circle`
@@ -37,6 +38,7 @@ export const Circle = styled.circle`
 
 export const BrandCircle = styled.circle`
     fill: ${props => props.theme.color.text.brand};
+    marginLeft: 1rem;
 `
 
 // Placement

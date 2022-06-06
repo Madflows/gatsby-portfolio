@@ -36,7 +36,7 @@ const WritingList = (props) => {
             <Styled.SectionTitle>
                 {props.sectionTitle
                     ? props.sectionTitle
-                    : "Writing"
+                    : "Blog"
                 }
             </Styled.SectionTitle>
             {data.writing.edges.map(({ node }) => (
